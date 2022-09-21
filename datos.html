@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="datos.php" method="post">
+
+<h1>Datos personales (Formulario)</h1>
+
+<fieldset>
+	<legend>Formulario</legend><br>
+	
+	Escriba los datos siguientes:<br><br>
+	
+	<b>Nombre:</b><br><input type="text" name="nombre"><br><br>
+	
+	<b>Apellidos:</b><br><input type="text" name="apellidos"><br><br>
+	
+	<b>Edad:</b><br>
+	<select>
+		<option value="nino">Nino</option>
+		<option value="adolescente">Adolescente</option>  
+		<option value="joven">Joven</option>
+		<option value="adulto">Adulto</option>
+		<option value="anciano">Anciano</option> 
+	</select>
+	<br><br>
+	
+	<b>Peso:</b><br><input type="text" name="peso">kg<br><br>
+	
+	<b>Sexo:</b><br>
+	<input type="radio" id="hombre" name="hombre" value="hombre">
+	<label for="hombre">Hombre</label><br>
+	<input type="radio" id="mujer" name="mujer" value="mujer">
+	<label for="mujer">Mujer</label><br><br>
+	
+	<b>Estado Civil:</b><br>
+	<input type="radio" id="soltero" name="soltero" value="soltero">
+	<label for="soltero">Soltero</label><br>
+	<input type="radio" id="casado" name="casado" value="casado">
+	<label for="casado">Casado</label><br>
+	<input type="radio" id="otro" name="otro" value="otro">
+	<label for="otro">Otro</label><br><br>
+	
+	<b>Aficiones:</b><br>
+	<input type="checkbox" id="cine" name="cine" value="cine">
+	<label for="cine">Cine</label><br>
+	<input type="checkbox" id="literatura" name="literatura" value="literatura">
+	<label for="literatura">Literatura</label><br>
+	<input type="checkbox" id="tebeos" name="tebeos" value="tebeos">
+	<label for="tebeos">Tebeos</label><br>
+	<input type="checkbox" id="deporte" name="deporte" value="deporte">
+	<label for="deporte">Deporte</label><br>
+	<input type="checkbox" id="musica" name="musica" value="musica">
+	<label for="musica">Musica</label><br>
+	<input type="checkbox" id="television" name="television" value="television">
+	<label for="television">Television</label><br><br>
+	
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Borrar" >
+	
+	</fieldset>
+</form>
+</body>
+</html> 
